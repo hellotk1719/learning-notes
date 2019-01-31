@@ -5,8 +5,6 @@
 
 ## Installation
 
-* [Installation - Laravel](https://laravel.com/docs/5.5/installation)
-
 ### Server Requirements
 
 * PHP >= 7.0.0
@@ -18,8 +16,11 @@
 
 ### Installing Laravel
 
-Via Composer Create-Project
-
 ```
 composer create-project --prefer-dist laravel/laravel projectName "5.5.*"
 ```
+
+Please check the link below for more information:
+
+* [Installation - Laravel](https://laravel.com/docs/5.5/installation)
+* [How to Setup a Laravel Project You Cloned from Github.com](https://devmarketer.io/learn/setup-laravel-project-cloned-github-com/)
