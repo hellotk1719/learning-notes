@@ -60,3 +60,24 @@ APP_TIMEZONE=Asia/Shanghai
 * [UTC](https://en.wikipedia.org/wiki/Coordinated_Universal_Time)
 * [Configuration - Laravel](https://laravel.com/docs/5.5/configuration)
 * [List of Supported Timezones](http://php.net/manual/en/timezones.php)
+
+### Localization
+
+**Installing Laravel-lang**
+
+```
+composer require caouecs/laravel-lang:~3.0
+```
+
+Files of languages are in `/vendor/caouecs/laravel-lang/src` directory.
+
+Copy the folders of languages that you want, in the `/resources/lang` folder of your Laravel application.
+
+**Usage [Laravel only]**
+
+In the file `/config/app.php`, change the value of `locale` by the short name of your language.
+
+**Please check the link below for more information:**
+
+* [Localization - Laravel](https://laravel.com/docs/5.5/localization)
+* [Laravel-lang](https://github.com/caouecs/Laravel-lang)
