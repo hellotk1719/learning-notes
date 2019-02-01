@@ -24,3 +24,5 @@ composer create-project --prefer-dist laravel/laravel projectName "5.5.*"
 
 * [Installation - Laravel](https://laravel.com/docs/5.5/installation)
 * [How to Setup a Laravel Project You Cloned from Github.com](https://devmarketer.io/learn/setup-laravel-project-cloned-github-com/)
+
+## Configuration
