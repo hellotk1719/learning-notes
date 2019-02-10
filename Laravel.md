@@ -81,3 +81,15 @@ In the file `/config/app.php`, change the value of `locale` by the short name of
 
 * [Localization - Laravel](https://laravel.com/docs/5.5/localization)
 * [Laravel-lang](https://github.com/caouecs/Laravel-lang)
+
+### Database
+
+The database configuration for your application is located at `/config/database.php`.
+
+By default, `.env` is short for environment and thus that is your environment configurations.
+
+In the `.env` file fill in the `DB_CONNECTION`, `DB_HOST`, `DB_PORT`, `DB_DATABASE`, `DB_USERNAME`, and `DB_PASSWORD` options to match the credentials of the database you just created.
+
+**Please check the link below for more information:**
+
+* [Database: Getting Started - Laravel](https://laravel.com/docs/5.5/database)
