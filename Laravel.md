@@ -88,6 +88,8 @@ The database configuration for your application is located at `/config/database.
 
 By default, `.env` is short for environment and thus that is your environment configurations.
 
+**Read & Write Connections**
+
 In the `.env` file fill in the `DB_CONNECTION`, `DB_HOST`, `DB_PORT`, `DB_DATABASE`, `DB_USERNAME`, and `DB_PASSWORD` options to match the credentials of the database you just created.
 
 **Please check the link below for more information:**
@@ -96,7 +98,7 @@ In the `.env` file fill in the `DB_CONNECTION`, `DB_HOST`, `DB_PORT`, `DB_DATABA
 
 **Modifying the engine of MySQL**
 
-Open the file `/config/database.php`.Go down the page and check `'mysql' => [],` where you will find
+Open the file `/config/database.php`. Go down the page and check `'mysql' => [],` where you will find
 
 ```php
 'mysql' => [
