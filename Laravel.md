@@ -93,3 +93,38 @@ In the `.env` file fill in the `DB_CONNECTION`, `DB_HOST`, `DB_PORT`, `DB_DATABA
 **Please check the link below for more information:**
 
 * [Database: Getting Started - Laravel](https://laravel.com/docs/5.5/database)
+
+**Modifying the engine of MySQL**
+
+Open the file `/config/database.php`.Go down the page and check `'mysql' => [],` where you will find
+
+```php
+'mysql' => [
+    'driver' => 'mysql',
+    'host' => env('DB_HOST', '127.0.0.1'),
+    'port' => env('DB_PORT', '3306'),
+    'database' => env('DB_DATABASE', 'forge'),
+    'username' => env('DB_USERNAME', 'forge'),
+    'password' => env('DB_PASSWORD', ''),
+    'unix_socket' => env('DB_SOCKET', ''),
+    'charset' => 'utf8mb4',
+    'collation' => 'utf8mb4_unicode_ci',
+    'prefix' => '',
+    'strict' => true,
+    'engine' => null,
+],
+```
+
+Here you can add your engine like
+
+```php
+'mysql' => [
+    ......
+    'engine' => 'InnoDB',
+],
+```
+
+**Please check the link below for more information:**
+
+* [Database: Migrations - Laravel](https://laravel.com/docs/5.5/migrations#tables)
+* [mysql - Laravel Migration Error: Syntax error or access violation: 1071 Specified key was too long;](https://stackoverflow.com/questions/42244541/laravel-migration-error-syntax-error-or-access-violation-1071-specified-key-wa)
