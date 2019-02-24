@@ -524,6 +524,12 @@ To be able to serve PHP (PHP needs to be installed as per instructions) check th
 # /etc/init.d/apache2 restart
 ```
 
+**who am i on apache**
+
+```php
+echo `whoami`;
+```
+
 **Please check the link below for more information:**
 
 * [PHP: Hypertext Preprocessor](http://php.net/)
