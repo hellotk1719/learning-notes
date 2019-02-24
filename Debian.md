@@ -479,3 +479,53 @@ delete from tablename where id=1;
 * [MariaDB.org - Supporting continuity and open collaboration](https://mariadb.org/)
 * [MariaDB Knowledge Base](https://mariadb.com/kb/en/)
 * [Teams/MySQL/MariaDB - Debian Wiki](https://wiki.debian.org/Teams/MySQL/MariaDB)
+
+## PHP
+
+**Installing**
+
+```
+# apt install php7.0
+```
+
+**To re-enable php in user directories**
+
+To be able to serve PHP (PHP needs to be installed as per instructions) check that /etc/apache2/mods-available/php7.0.conf is correct:
+
+```
+<FilesMatch ".+\.ph(p[3457]?|t|tml)$">
+    SetHandler application/x-httpd-php
+</FilesMatch>
+<FilesMatch ".+\.phps$">
+    SetHandler application/x-httpd-php-source
+    # Deny access to raw php sources by default
+    # To re-enable it's recommended to enable access to the files
+    # only in specific virtual host or directory
+    Require all denied
+</FilesMatch>
+# Deny access to files without filename (e.g. '.php')
+<FilesMatch "^\.ph(p[3457]?|t|tml|ps)$">
+    Require all denied
+</FilesMatch>
+
+# Running PHP scripts in user directories is disabled by default
+#
+# To re-enable PHP in user directories comment the following lines
+# (from <IfModule ...> to </IfModule>.) Do NOT set it to On as it
+# prevents .htaccess files from disabling it.
+# <IfModule mod_userdir.c>
+#     <Directory /home/*/public_html>
+#         php_admin_flag engine Off
+#     </Directory>
+# </IfModule>
+```
+
+```
+# /etc/init.d/apache2 restart
+```
+
+**Please check the link below for more information:**
+
+* [PHP: Hypertext Preprocessor](http://php.net/)
+* [PHP: Documentation](http://php.net/docs.php)
+* [PHP - Debian Wiki](https://wiki.debian.org/PHP)
