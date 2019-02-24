@@ -529,3 +529,31 @@ To be able to serve PHP (PHP needs to be installed as per instructions) check th
 * [PHP: Hypertext Preprocessor](http://php.net/)
 * [PHP: Documentation](http://php.net/docs.php)
 * [PHP - Debian Wiki](https://wiki.debian.org/PHP)
+
+## phpMyAdmin
+
+**Installing**
+
+```
+# apt install phpmyadmin
+```
+
+**Configuration**
+
+Enable phpMyAdmin:
+
+```
+# a2enconf phpmyadmin
+# /etc/init.d/apache2 restart
+```
+
+Disable phpMyAdmin:
+
+```
+# a2disconf phpmyadmin
+# /etc/init.d/apache2 restart
+```
+
+**Please check the link below for more information:**
+
+* [phpMyAdmin](https://www.phpmyadmin.net/)
