@@ -1,3 +1,5 @@
+# https://httpd.apache.org/docs/2.4/howto/htaccess.html
+
 # 将不带WWW的域名转向到带WWW的域名
 Options +FollowSymLinks
 RewriteEngine on
