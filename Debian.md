@@ -380,14 +380,14 @@ Configuring sites-available & sites-enabled:
 ```
 <VirtualHost *:80>
 
-	ServerName 
+    ServerName 
 
-	Redirect 403 /
+    Redirect 403 /
 
-	DocumentRoot /var/www/ip
+    DocumentRoot /var/www/ip
 
-	ErrorLog /var/www/ip/error.log
-	CustomLog /var/www/ip/access.log combined
+    ErrorLog /var/www/ip/error.log
+    CustomLog /var/www/ip/access.log combined
 
 </VirtualHost>
 ```
