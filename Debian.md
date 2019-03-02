@@ -349,7 +349,7 @@ export APACHE_RUN_GROUP=www-data
 multiple:
 
 ```
-# aptitude install libapache2-mpm-itk
+# apt install libapache2-mpm-itk
 
 # a2enmod mpm_itk
 
