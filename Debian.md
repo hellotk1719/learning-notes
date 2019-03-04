@@ -578,3 +578,23 @@ Disable phpMyAdmin:
 $ zip -qr file.zip destination_folder
 $ unzip file.zip -d destination_folder
 ```
+
+## Ping
+
+**How to disable ping response (ICMP echo) in Linux all the time?**
+
+Add the following line to your `/etc/sysctl.conf`
+
+```
+net.ipv4.icmp_echo_ignore_all=1
+```
+
+Then
+
+```
+sysctl -p
+```
+
+**Please check the link below for more information:**
+
+* [How to Disable Ping Response ( ICMP echo ) in Linux all the time?](https://unix.stackexchange.com/questions/412446/how-to-disable-ping-response-icmp-echo-in-linux-all-the-time)
