@@ -563,3 +563,18 @@ Disable phpMyAdmin:
 **Please check the link below for more information:**
 
 * [phpMyAdmin](https://www.phpmyadmin.net/)
+
+## Zip
+
+**Installing**
+
+```
+# apt install zip unzip
+```
+
+**example**
+
+```
+$ zip -qr file.zip destination_folder
+$ unzip file.zip -d destination_folder
+```
