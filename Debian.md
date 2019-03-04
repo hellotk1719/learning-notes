@@ -352,11 +352,24 @@ multiple:
 # apt install libapache2-mpm-itk
 
 # a2enmod mpm_itk
+```
 
+```
 # vim 000-default.conf
+```
 
-AssignUserID uid gid
+```
+<VirtualHost *:80>
+    ......
 
+    <IfModule mpm_itk_module>
+        AssignUserID www-date www-data
+    </IfModule>
+
+</VirtualHost>
+```
+
+```
 # /etc/init.d/apache2 restart
 ```
 
