@@ -2,6 +2,14 @@
 
 * [Windows | Official Site for Microsoft](https://www.microsoft.com/en-us/windows)
 
+## DNS
+
+**How to clear your DNS cache**
+
+```
+ipconfig /flushdns
+```
+
 ## DiskPart
 
 Applies To: Windows 10, Windows 8.1, Windows 8, Windows 7, Windows Server 2019, Windows Server 2016, Windows Server 2012 R2, Windows Server 2012, and Windows Server 2008 R2, Windows Server 2008
