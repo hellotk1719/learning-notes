@@ -274,6 +274,15 @@ Enable module:
 # /etc/init.d/apache2 restart
 ```
 
+**Disable directory listing**
+
+Disable module:
+
+```
+# a2dismod autoindex
+# /etc/init.d/apache2 restart
+```
+
 **Virtual Hosts**
 
 Creat a new user:
