@@ -1,17 +1,14 @@
 # https://httpd.apache.org/docs/2.4/howto/htaccess.html
 
 # 将不带WWW的域名转向到带WWW的域名
-Options +FollowSymLinks
 RewriteEngine on
 RewriteCond %{HTTP_HOST} ^youdomain.com [NC]
 RewriteRule ^(.*)$ http://www.youdomain.com/$1 [L,R=301]
 
 # 重定向到新域名
-Options +FollowSymLinks
 RewriteEngine on
 RewriteRule ^(.*)$  http://www.youdomain.com/$1 [L,R=301]
 
 # 404
-Options +FollowSymLinks
 RewriteEngine on
 ErrorDocument 404 /404.html
