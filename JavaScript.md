@@ -10,7 +10,7 @@
 **The Document Ready Event**
 
 ```javascript
-$( document ).ready(function() {
+$(document).ready(function() {
 
     // jQuery methods go here...
 
