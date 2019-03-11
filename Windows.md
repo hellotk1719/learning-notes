@@ -4,7 +4,7 @@
 
 ## DNS
 
-**How to clear your DNS cache**
+**How to clear your DNS cache?**
 
 ```
 ipconfig /flushdns
