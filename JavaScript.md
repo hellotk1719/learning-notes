@@ -7,7 +7,7 @@
 * [jQuery](https://jquery.com/)
 * [jQuery Tutorial](https://www.w3schools.com/jquery/)
 
-### The Document Ready Event
+**The Document Ready Event**
 
 ```javascript
 $( document ).ready(function() {
