@@ -1,8 +1,15 @@
 # Hello, Tools!
 
-# Images & Photos & Pictures
+### Images & Photos & Pictures
 
 * [Snipaste - 截图 + 贴图](https://zh.snipaste.com/)
+
+### Music
+
+* [music.zhuolin.wang](http://music.zhuolin.wang/)
+* [music.sonimei.cn](http://music.sonimei.cn/)
+* [music.fooor.cn](http://music.fooor.cn/)
+* [music.mli.im](https://music.mli.im/music.web)
 
 ### Network
 
