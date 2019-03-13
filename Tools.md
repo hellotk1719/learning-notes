@@ -37,6 +37,12 @@
 
 * [Nmap: the Network Mapper - Free Security Scanner](https://nmap.org/)
 
+### SQL
+
+**Navicat**
+
+* [Navicat](https://www.navicat.com.cn/)
+
 ### Web server
 
 **Apache**
