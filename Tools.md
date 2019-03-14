@@ -4,6 +4,10 @@
 
 * [Snipaste - 截图 + 贴图](https://zh.snipaste.com/)
 
+### Mind Mapping
+
+* [XMind思维导图 | XMind中文官方网站](https://www.xmind.cn/)
+
 ### Music
 
 * [music.zhuolin.wang](http://music.zhuolin.wang/)
