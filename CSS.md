@@ -88,3 +88,12 @@ Example 2:
     white-space: nowrap;
 }
 ```
+
+**全屏自适应背景**
+
+```css
+.example {
+    background: #fff url("") no-repeat fixed center center;
+    background-size: cover;
+}
+```
