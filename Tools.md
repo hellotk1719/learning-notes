@@ -4,6 +4,7 @@
 
 * [Snipaste - 截图 + 贴图](https://zh.snipaste.com/)
 * [ico](http://www.bitbug.net/)
+* [TinyPNG – Compress PNG images while preserving transparency](https://tinypng.com/)
 
 ### Mind Mapping
 
