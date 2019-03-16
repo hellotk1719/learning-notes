@@ -29,6 +29,11 @@
     * [WHOIS Lookup Tool - Perform a Reverse Lookup on a Domain Name or IP Address](https://www.yougetsignal.com/tools/whois-lookup/)
 * [IPv4 检查服务](https://ipcheck.need.sh/)
 
+**Speedtest**
+
+* [Speedtest by Ookla - The Global Broadband Speed Test](https://www.speedtest.net/)
+* [SpeedTest.cn](http://www.speedtest.cn/)
+
 **Shadowsocks**
 
 * [Shadowsocks - A secure socks5 proxy](https://shadowsocks.org/)
