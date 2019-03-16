@@ -3,6 +3,7 @@
 ### Images & Photos & Pictures
 
 * [Snipaste - 截图 + 贴图](https://zh.snipaste.com/)
+* [ico](http://www.bitbug.net/)
 
 ### Mind Mapping
 
