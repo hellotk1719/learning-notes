@@ -32,3 +32,4 @@
 * [Free PhotoStock Images for commercial use](https://photostockeditor.com/)
 * [Free Food Stock Images - Yum Yum!](http://freefoodphotos.com/)
 * [ぱくたそ-フリー素材](https://www.pakutaso.com/)
+* [PNG images with transparent background | Free PNG images clipart](http://pngimg.com/)
