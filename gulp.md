@@ -9,3 +9,4 @@ gulp is a toolkit for automating painful or time-consuming tasks in your develop
 
 * [Browsersync - Time-saving synchronised browser testing](https://www.browsersync.io/)
 * [gulp-sass](https://www.npmjs.com/package/gulp-sass)
+* [gulp-autoprefixer](https://www.npmjs.com/package/gulp-autoprefixer)
