@@ -8,9 +8,11 @@ gulp is a toolkit for automating painful or time-consuming tasks in your develop
 ## Plugins
 
 * [Browsersync - Time-saving synchronised browser testing](https://www.browsersync.io/)
+* [dateformat](https://www.npmjs.com/package/dateformat)
 * [readable-stream](https://www.npmjs.com/package/readable-stream)
 * [gulp-htmlmin](https://www.npmjs.com/package/gulp-htmlmin)
 * [gulp-sass](https://www.npmjs.com/package/gulp-sass)
 * [gulp-autoprefixer](https://www.npmjs.com/package/gulp-autoprefixer)
 * [gulp-clean-css](https://www.npmjs.com/package/gulp-clean-css)
 * [gulp-uglify](https://www.npmjs.com/package/gulp-uglify)
+* [gulp-file-include](https://www.npmjs.com/package/gulp-file-include)
