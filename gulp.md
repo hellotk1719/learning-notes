@@ -16,3 +16,4 @@ gulp is a toolkit for automating painful or time-consuming tasks in your develop
 * [gulp-clean-css](https://www.npmjs.com/package/gulp-clean-css)
 * [gulp-uglify](https://www.npmjs.com/package/gulp-uglify)
 * [gulp-file-include](https://www.npmjs.com/package/gulp-file-include)
+* [gulp-concat](https://www.npmjs.com/package/gulp-concat)
