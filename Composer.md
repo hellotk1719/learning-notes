@@ -16,3 +16,11 @@ $ set http_proxy='127.0.0.1:8888'
 $ export https_proxy='127.0.0.1:8888'
 $ export http_proxy='127.0.0.1:8888'
 ```
+
+### clear-cache
+
+Deletes all content from Composer's cache directories.
+
+```
+$ composer clear-cache
+```
