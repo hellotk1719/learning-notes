@@ -1,5 +1,0 @@
-# http://humanstxt.org/
-
-/* TEAM */
-    Developer: Your name
-    Contact: example [at] email.com
